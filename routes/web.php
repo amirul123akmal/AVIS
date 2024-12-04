@@ -7,6 +7,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('admin', function (){
-    
+Route::prefix('admin')->group(function (){
+    Route::get('info', function(){
+        return view('admin.dashboard');
+    });
 });

@@ -12,9 +12,6 @@
 </head>
 
 <body>
-    <x-admin-sidebar>
-        <x-admin-navbar />
-    </x-admin-sidebar>
 </body>
 
 </html>
